@@ -1,0 +1,24 @@
+{
+  "name": "softlight-figma-to-html",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Figma to HTML/CSS converter CLI",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node src/cli.ts",
+    "start": "node dist/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.34",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
